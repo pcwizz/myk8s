@@ -2,7 +2,7 @@
 
 # Deploys everything to k8s
 ingressNginxVersion='0.30.0'
-certManagerVersion='0.14.1'
+certManagerVersion='0.14.2'
 
 kubectl apply -f \
 	https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-$ingressNginxVersion/deploy/static/mandatory.yaml
